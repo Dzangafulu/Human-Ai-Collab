@@ -1,0 +1,523 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hacms.app"
+4    android:versionCode="3"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:5:1-62
+11-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:5:18-60
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:6:1-74
+12-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:6:18-72
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:7:1-72
+13-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:7:18-70
+14    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+14-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\bfc927914106488e75957e4fd77af128\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+14-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\bfc927914106488e75957e4fd77af128\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:23:5-68
+15-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:23:22-65
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:25:5-81
+16-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:25:22-78
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:26:5-77
+17-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:26:22-74
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+20        android:name="com.hacms.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.hacms.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:9:5-38:19
+26        android:name="com.hacms.app.StudentApplication"
+26-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:10:9-43
+27        android:allowBackup="true"
+27-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:11:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5ef528672af5734485c322100a6e6f2c\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:12:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:13:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:14:9-43
+34        android:label="UniTask"
+34-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:15:9-32
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:16:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:17:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.HACMS" >
+38-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:18:9-43
+39        <activity
+39-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:20:9-27:20
+40            android:name="com.hacms.app.SplashActivity"
+40-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:21:13-43
+41            android:exported="true" >
+41-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:22:13-36
+42            <intent-filter>
+42-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:23:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:24:17-69
+43-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:24:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:25:17-77
+45-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:25:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:29:9-76
+49            android:name="com.hacms.app.LoginActivity"
+49-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:29:19-48
+50            android:exported="false" />
+50-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:29:49-73
+51        <activity
+51-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:30:9-77
+52            android:name="com.hacms.app.SignupActivity"
+52-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:30:19-49
+53            android:exported="false" />
+53-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:30:50-74
+54        <activity
+54-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:32:9-80
+55            android:name="com.hacms.app.MfaEnrollActivity"
+55-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:32:19-52
+56            android:exported="false" />
+56-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:32:53-77
+57        <activity
+57-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:34:9-75
+58            android:name="com.hacms.app.MainActivity"
+58-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:34:19-47
+59            android:exported="false" />
+59-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:34:48-72
+60        <activity
+60-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:35:1-37:40
+61            android:name="com.hacms.app.TaskBoardActivity"
+61-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:36:13-46
+62            android:exported="false" />
+62-->C:\Users\Kopano Gaborone\Documents\ITMDA\Project\UniTask_2_1\UniTask_2_1\UniTask_2_1\app\src\main\AndroidManifest.xml:37:13-37
+63
+64        <service
+64-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:22:9-28:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:23:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:32:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:24:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:25:13-27:85
+69                android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar"
+69-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:26:17-128
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-appcheck-debug:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\a82650f520951b18f7741ea8727221e6\transformed\firebase-appcheck-debug-20.0.0\AndroidManifest.xml:27:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:66:13-68:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:67:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:68:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-appcheck-playintegrity:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b684a4aba4e652c98ff84ae5dcbfc9ab\transformed\firebase-appcheck-playintegrity-20.0.0\AndroidManifest.xml:25:13-27:85
+75                android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar"
+75-->[com.google.firebase:firebase-appcheck-playintegrity:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b684a4aba4e652c98ff84ae5dcbfc9ab\transformed\firebase-appcheck-playintegrity-20.0.0\AndroidManifest.xml:26:17-144
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-appcheck-playintegrity:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b684a4aba4e652c98ff84ae5dcbfc9ab\transformed\firebase-appcheck-playintegrity-20.0.0\AndroidManifest.xml:27:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:29:13-31:85
+78                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+78-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:30:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:31:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:32:13-34:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+81-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:33:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\509a56c7a1ca2967ced67cf3b7e40a77\transformed\firebase-database-23.0.0\AndroidManifest.xml:34:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:17:13-19:85
+84                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+84-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:18:17-122
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:19:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:20:13-22:85
+87                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+87-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:21:17-111
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-firestore:27.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\514de608ea0f5ff008c43069d1617cfe\transformed\firebase-firestore-27.1.0\AndroidManifest.xml:22:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-ai:18.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4f86516f1976448ac0c981351ebfb078\transformed\firebase-ai-18.1.0\AndroidManifest.xml:31:13-33:85
+90                android:name="com.google.firebase.components:com.google.firebase.ai.FirebaseAIRegistrar"
+90-->[com.google.firebase:firebase-ai:18.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4f86516f1976448ac0c981351ebfb078\transformed\firebase-ai-18.1.0\AndroidManifest.xml:32:17-105
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-ai:18.1.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4f86516f1976448ac0c981351ebfb078\transformed\firebase-ai-18.1.0\AndroidManifest.xml:33:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:25:13-27:85
+93                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+93-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:26:17-120
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:27:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:28:13-30:85
+96                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+96-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:29:17-117
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-appcheck:20.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2176adfb0c8b6f18b042eed0b97900df\transformed\firebase-appcheck-20.0.0\AndroidManifest.xml:30:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:35:13-37:85
+99                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+99-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:36:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:37:17-82
+101        </service>
+102
+103        <activity
+103-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:26:9-43:20
+104            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+104-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:27:13-80
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:28:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:29:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:30:13-44
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+108-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:31:13-72
+109            <intent-filter>
+109-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:32:13-42:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:33:17-69
+110-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:33:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:35:17-76
+112-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:35:27-73
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:36:17-78
+113-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:36:27-75
+114
+115                <data
+115-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:38:17-41:51
+116                    android:host="firebase.auth"
+116-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:39:21-49
+117                    android:path="/"
+117-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:40:21-37
+118                    android:scheme="genericidp" />
+118-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:41:21-48
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:44:9-61:20
+122            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+122-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:45:13-79
+123            android:excludeFromRecents="true"
+123-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:46:13-46
+124            android:exported="true"
+124-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:47:13-36
+125            android:launchMode="singleTask"
+125-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:48:13-44
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+126-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:49:13-72
+127            <intent-filter>
+127-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:50:13-60:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:33:17-69
+128-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:33:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:35:17-76
+130-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:35:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:36:17-78
+131-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:36:27-75
+132
+133                <data
+133-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:38:17-41:51
+134                    android:host="firebase.auth"
+134-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:39:21-49
+135                    android:path="/"
+135-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:40:21-37
+136                    android:scheme="recaptcha" />
+136-->[com.google.firebase:firebase-auth:25.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\4fcd373dfa2ddade9062d548105367ff\transformed\firebase-auth-25.0.0\AndroidManifest.xml:41:21-48
+137            </intent-filter>
+138        </activity>
+139
+140        <service
+140-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+141            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+141-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+142            android:enabled="true"
+142-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+143            android:exported="false" >
+143-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+144            <meta-data
+144-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+145                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+145-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+146                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+146-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+147        </service>
+148
+149        <activity
+149-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+150            android:name="androidx.credentials.playservices.HiddenActivity"
+150-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+151            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+151-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+152            android:enabled="true"
+152-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+153            android:exported="false"
+153-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+154            android:fitsSystemWindows="true"
+154-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+155            android:theme="@style/Theme.Hidden" >
+155-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\da7be79dcf7431fc4e7d6cf88ee7acb6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+156        </activity>
+157        <activity
+157-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+158            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+158-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+159            android:excludeFromRecents="true"
+159-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+162        <!--
+163            Service handling Google Sign-In user revocation. For apps that do not integrate with
+164            Google Sign-In, this service will never be started.
+165        -->
+166        <service
+166-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+167            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+167-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+168            android:exported="true"
+168-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+169            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+169-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+170            android:visibleToInstantApps="true" />
+170-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\35eb0d86990fd5fbe8fca7eadc14f509\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+171
+172        <activity
+172-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\8b3e8ba79b03f22d2307146de23225d7\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:9-22:45
+173            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+173-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\8b3e8ba79b03f22d2307146de23225d7\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:19-85
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\8b3e8ba79b03f22d2307146de23225d7\transformed\play-services-base-18.9.0\AndroidManifest.xml:22:19-43
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+175-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\8b3e8ba79b03f22d2307146de23225d7\transformed\play-services-base-18.9.0\AndroidManifest.xml:21:19-78
+176
+177        <provider
+177-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:23:9-28:39
+178            android:name="com.google.firebase.provider.FirebaseInitProvider"
+178-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:24:13-77
+179            android:authorities="com.hacms.app.firebaseinitprovider"
+179-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:25:13-72
+180            android:directBootAware="true"
+180-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:26:13-43
+181            android:exported="false"
+181-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:27:13-37
+182            android:initOrder="100" />
+182-->[com.google.firebase:firebase-common:23.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\5cdb598b5b6410c3be5581bfc2696434\transformed\firebase-common-23.0.0\AndroidManifest.xml:28:13-36
+183        <provider
+183-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:29:9-37:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:30:13-67
+185            android:authorities="com.hacms.app.androidx-startup"
+185-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:31:13-68
+186            android:exported="false" >
+186-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:32:13-37
+187            <meta-data
+187-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:34:13-36:52
+188                android:name="androidx.work.WorkManagerInitializer"
+188-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:35:17-68
+189                android:value="androidx.startup" />
+189-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:36:17-49
+190            <meta-data
+190-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b9541f619e2ef7437333523c647ac1d2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+191-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b9541f619e2ef7437333523c647ac1d2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+192                android:value="androidx.startup" />
+192-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\b9541f619e2ef7437333523c647ac1d2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+193            <meta-data
+193-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\17f707bf03056c819989ff19db9caf08\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:29:13-31:52
+194                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+194-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\17f707bf03056c819989ff19db9caf08\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+195                android:value="androidx.startup" />
+195-->[androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\17f707bf03056c819989ff19db9caf08\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
+196            <meta-data
+196-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+197                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+197-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+198                android:value="androidx.startup" />
+198-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+199        </provider>
+200
+201        <service
+201-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:39:9-45:35
+202            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+202-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:40:13-84
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:41:13-44
+204            android:enabled="@bool/enable_system_job_service_default"
+204-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:42:13-70
+205            android:exported="true"
+205-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:43:13-36
+206            android:permission="android.permission.BIND_JOB_SERVICE" />
+206-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:44:13-69
+207        <service
+207-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:46:9-52:35
+208            android:name="androidx.work.impl.foreground.SystemForegroundService"
+208-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:47:13-81
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:48:13-44
+210            android:enabled="@bool/enable_system_foreground_service_default"
+210-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:49:13-77
+211            android:exported="false" />
+211-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:50:13-37
+212
+213        <receiver
+213-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:54:9-59:35
+214            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+214-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:55:13-88
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:56:13-44
+216            android:enabled="true"
+216-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:57:13-35
+217            android:exported="false" />
+217-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:58:13-37
+218        <receiver
+218-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:60:9-69:20
+219            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+219-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:61:13-88
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:62:13-44
+221            android:enabled="false"
+221-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:63:13-36
+222            android:exported="false" >
+222-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:64:13-37
+223            <intent-filter>
+223-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:66:13-68:29
+224                <action android:name="android.intent.action.BOOT_COMPLETED" />
+224-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:67:17-79
+224-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:67:25-76
+225            </intent-filter>
+226        </receiver>
+227        <receiver
+227-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:70:9-80:20
+228            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+228-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:71:13-78
+229            android:directBootAware="false"
+229-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:72:13-44
+230            android:enabled="true"
+230-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:73:13-35
+231            android:exported="true"
+231-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:74:13-36
+232            android:permission="android.permission.DUMP" >
+232-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:75:13-57
+233            <intent-filter>
+233-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:77:13-79:29
+234                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+234-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:78:17-88
+234-->[androidx.work:work-runtime:2.11.2] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\538ddb00499390b286a18b43f08dbc73\transformed\work-runtime-2.11.2\AndroidManifest.xml:78:25-85
+235            </intent-filter>
+236        </receiver>
+237
+238        <uses-library
+238-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+239            android:name="androidx.window.extensions"
+239-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+240            android:required="false" />
+240-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+241        <uses-library
+241-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+242            android:name="androidx.window.sidecar"
+242-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+243            android:required="false" />
+243-->[androidx.window:window:1.0.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\2e0b170cede4a6b3a1bda169b3835a45\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+244
+245        <service
+245-->[androidx.room:room-runtime-android:2.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\cb93ea35a9eb2e53029bbbf7163b86c4\transformed\room-runtime-release\AndroidManifest.xml:24:9-28:63
+246            android:name="androidx.room.MultiInstanceInvalidationService"
+246-->[androidx.room:room-runtime-android:2.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\cb93ea35a9eb2e53029bbbf7163b86c4\transformed\room-runtime-release\AndroidManifest.xml:25:13-74
+247            android:directBootAware="true"
+247-->[androidx.room:room-runtime-android:2.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\cb93ea35a9eb2e53029bbbf7163b86c4\transformed\room-runtime-release\AndroidManifest.xml:26:13-43
+248            android:exported="false" />
+248-->[androidx.room:room-runtime-android:2.7.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\cb93ea35a9eb2e53029bbbf7163b86c4\transformed\room-runtime-release\AndroidManifest.xml:27:13-37
+249
+250        <receiver
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+251            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+252            android:directBootAware="false"
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+253            android:enabled="true"
+253-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+254            android:exported="true"
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+255            android:permission="android.permission.DUMP" >
+255-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+257                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+260                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+261            </intent-filter>
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+263                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+264            </intent-filter>
+265            <intent-filter>
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+266                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+266-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+266-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\593eb9e0a61d4e81731e616d58cbd3da\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+267            </intent-filter>
+268        </receiver>
+269
+270        <meta-data
+270-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\ccc471c8b74d3ff62e781cc4af1f58f3\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+271            android:name="com.google.android.gms.version"
+271-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\ccc471c8b74d3ff62e781cc4af1f58f3\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+272            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+272-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\ccc471c8b74d3ff62e781cc4af1f58f3\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+273        <activity
+273-->[com.google.android.play:core-common:2.0.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\9b9b1a6c3fb3b68635eef06720cf0d1d\transformed\core-common-2.0.4\AndroidManifest.xml:14:9-18:65
+274            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+274-->[com.google.android.play:core-common:2.0.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\9b9b1a6c3fb3b68635eef06720cf0d1d\transformed\core-common-2.0.4\AndroidManifest.xml:15:13-93
+275            android:exported="false"
+275-->[com.google.android.play:core-common:2.0.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\9b9b1a6c3fb3b68635eef06720cf0d1d\transformed\core-common-2.0.4\AndroidManifest.xml:16:13-37
+276            android:stateNotNeeded="true"
+276-->[com.google.android.play:core-common:2.0.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\9b9b1a6c3fb3b68635eef06720cf0d1d\transformed\core-common-2.0.4\AndroidManifest.xml:17:13-42
+277            android:theme="@style/Theme.PlayCore.Transparent" />
+277-->[com.google.android.play:core-common:2.0.4] C:\Users\Kopano Gaborone\.gradle\caches\8.14.5\transforms\9b9b1a6c3fb3b68635eef06720cf0d1d\transformed\core-common-2.0.4\AndroidManifest.xml:18:13-62
+278    </application>
+279
+280</manifest>

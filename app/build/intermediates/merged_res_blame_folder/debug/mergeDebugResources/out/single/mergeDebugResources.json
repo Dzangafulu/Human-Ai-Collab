@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_logout.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_save.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_edit.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_back.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_item_bot_messages.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\item_bot_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_send.jpg.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\send.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable-nodpi_unitask_lockup.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable-nodpi\\unitask_lockup.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_user_row.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\user_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_add.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\color_nav_item_tint.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\color\\nav_item_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_dashboard_panel.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\dashboard_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable-nodpi_unitask_icon.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable-nodpi\\unitask_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_edit_style_box.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\edit_style_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_note.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout-land_activity_signup.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout-land\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_message_row_received.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\message_row_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_item_user_messages.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\item_user_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_message_row_sent.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\message_row_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_rounded_corner_sent.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\rounded_corner_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_scheduler.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_scheduler.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_chat_bot.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_chat_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_mfa_enroll.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_mfa_enroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_edit_note.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_edit_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_person.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_chat_list.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_notes_layout.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\notes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_dashboard_white_card.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\dashboard_white_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_ic_home_outline.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\ic_home_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_stat_orange.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\stat_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_options.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_rounded_corner_received.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\rounded_corner_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_stat_green.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\stat_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.hacms.app-debug-69:/layout_activity_mfa_enroll.xml.flat",
+        "source": "com.hacms.app-main-71:/layout/activity_mfa_enroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_note_details.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_note_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_fragment_create_note.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\fragment_create_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\layout_activity_chat_list.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\layout\\activity_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_icon_bot.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\icon_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_dashboard_avatar.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\dashboard_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-debug-69:\\drawable_stat_blue.xml.flat",
+        "source": "C:\\Users\\Kopano Gaborone\\.gradle\\daemon\\8.14.5\\com.hacms.app-main-71:\\drawable\\stat_blue.xml"
+    }
+]
