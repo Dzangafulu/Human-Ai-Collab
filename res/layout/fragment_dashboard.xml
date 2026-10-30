@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:fillViewport="true" android:background="#F4F6FB">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+   android:padding="23dp" android:orientation="vertical">
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="14dp" android:layout_marginBottom="20dp">
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+      <TextView android:id="@+id/dashboardGreeting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Good morning" android:textColor="#1D2938" android:textSize="22sp" />
+      <TextView android:id="@+id/dashboardDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#667791" android:textSize="13sp" />
+    </LinearLayout>
+    <TextView android:id="@+id/dashboardAvatar" android:layout_width="40dp" android:layout_height="40dp" android:gravity="center" android:background="@drawable/dashboard_avatar" android:text="JD" android:textColor="#FFFFFF" android:textStyle="bold" />
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:background="@drawable/dashboard_panel" android:layout_marginBottom="19dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+      <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Upcoming tasks" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+      <TextView android:id="@+id/dashboardCalendar" android:layout_width="45dp" android:layout_height="42dp" android:gravity="center" android:contentDescription="Open study scheduler" android:text="▣" android:textColor="#FFFFFF" android:textSize="24sp" android:clickable="true" android:focusable="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/dashboardUpcomingList" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+  </LinearLayout>
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Active tasks" android:textColor="#1D2938" android:textSize="22sp" android:layout_marginBottom="14dp"/>
+  <LinearLayout android:id="@+id/dashboardActiveList" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="18dp"/>
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Task overview" android:textSize="20sp" android:textColor="#F58A00" android:layout_marginBottom="12dp"/>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="3">
+   <LinearLayout android:layout_width="0dp" android:layout_height="76dp" android:layout_weight="1" android:background="@drawable/stat_blue" android:orientation="vertical" android:gravity="center" android:layout_marginEnd="5dp">
+    <TextView android:id="@+id/countTodo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#182537" android:textSize="23sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To do" android:textColor="#64738A" android:textSize="11sp"/>
+   </LinearLayout>
+   <LinearLayout android:layout_width="0dp" android:layout_height="76dp" android:layout_weight="1" android:background="@drawable/stat_orange" android:orientation="vertical" android:gravity="center" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+    <TextView android:id="@+id/countDoing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#182537" android:textSize="23sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="In progress" android:textColor="#64738A" android:textSize="11sp"/>
+   </LinearLayout>
+   <LinearLayout android:layout_width="0dp" android:layout_height="76dp" android:layout_weight="1" android:background="@drawable/stat_green" android:orientation="vertical" android:gravity="center" android:layout_marginStart="5dp">
+    <TextView android:id="@+id/countDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#182537" android:textSize="23sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" android:textColor="#64738A" android:textSize="11sp"/>
+   </LinearLayout>
+  </LinearLayout>
+     <LinearLayout android:id="@+id/myNotesPanel1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:background="@drawable/dashboard_panel" android:layout_marginBottom="19dp">
+         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+             <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="My Notes" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+         </LinearLayout>
+         <LinearLayout android:id="@+id/mynotes" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+     </LinearLayout>
+  <TextView android:id="@+id/dashboardMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:textColor="#64738A" android:textSize="12sp" />
+ </LinearLayout>
+</ScrollView>

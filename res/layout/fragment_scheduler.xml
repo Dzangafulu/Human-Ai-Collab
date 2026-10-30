@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:background="#F4F6FB">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="22dp">
+  <TextView android:id="@+id/schedulerBack" android:layout_width="match_parent" android:layout_height="46dp" android:gravity="center_vertical" android:text="‹  Back to dashboard" android:textColor="#2D6FFF" android:clickable="true" android:focusable="true" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Study Scheduler" android:textSize="24sp" android:textColor="#17324F" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create your own session or plan around assignments and tests" android:textColor="#667791" android:layout_marginBottom="14dp" />
+  <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:background="@drawable/dashboard_white_card">
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create a study session" android:textStyle="bold" android:textColor="#17324F" android:textSize="17sp"/>
+   <EditText android:id="@+id/schedulerSubject" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Subject or session name (e.g. Science revision)" android:inputType="textCapSentences" android:singleLine="true" />
+   <Button android:id="@+id/schedulerPickDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select date" android:textAllCaps="false"/>
+   <Button android:id="@+id/schedulerPickTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Select start time" android:textAllCaps="false"/>
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Session duration" android:textStyle="bold" android:textColor="#17324F" />
+   <Spinner android:id="@+id/schedulerDuration" android:layout_width="match_parent" android:layout_height="48dp" />
+   <Button android:id="@+id/schedulerManualAdd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add study session" android:textAllCaps="false" android:backgroundTint="#2AB987" android:textColor="#FFFFFF" />
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:padding="16dp" android:background="@drawable/dashboard_white_card" android:orientation="vertical">
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Generate from my tasks" android:textColor="#17324F" android:textStyle="bold" android:textSize="17sp" />
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Study sessions per day" android:textColor="#17324F" android:layout_marginTop="10dp" />
+   <Spinner android:id="@+id/schedulerSessions" android:layout_width="match_parent" android:layout_height="48dp" />
+   <Button android:id="@+id/schedulerAutoTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Choose preferred start time" android:textAllCaps="false" />
+   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sessions will be labelled with the assignment or test. They save automatically." android:textSize="12sp" android:textColor="#667791" />
+   <Button android:id="@+id/schedulerGenerate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Generate and save study plan" android:textAllCaps="false" android:backgroundTint="#2D6FFF" android:textColor="#FFFFFF" />
+  </LinearLayout>
+  <TextView android:id="@+id/schedulerInfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Study sessions automatically save to Firebase." android:textColor="#667791" android:layout_marginTop="16dp" android:layout_marginBottom="10dp" />
+  <LinearLayout android:id="@+id/schedulerList" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+ </LinearLayout>
+</ScrollView>
