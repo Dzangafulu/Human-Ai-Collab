@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:id="@+id/dashboardFragment" android:title="Home" android:icon="@drawable/ic_home_outline" />
-<item android:id="@+id/taskBoardFragment" android:title="Tasks" android:icon="@android:drawable/ic_menu_agenda" />
-<item android:id="@+id/notesFragment" android:title="Notes" android:icon="@android:drawable/ic_menu_edit" />
-<item android:id="@+id/chatBotFragment" android:title="Unify" android:icon="@android:drawable/ic_menu_compass" />
-<item android:id="@+id/chatFragment" android:title="Chats" android:icon="@android:drawable/ic_dialog_email" />
-</menu>
