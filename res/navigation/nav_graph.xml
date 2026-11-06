@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.hacms.app.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/taskBoardFragment"
+        android:name="com.hacms.app.TasksFragment"
+        android:label="Tasks" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.hacms.app.ContactsFragment"
+        android:label="Chats" />
+
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.hacms.app.ChatBotFragment"
+        android:label="Unify" />
+
+    <fragment android:id="@+id/schedulerFragment"
+        android:name="com.hacms.app.SchedulerFragment"
+        android:label="Study Scheduler" />
+
+    <fragment android:id="@+id/chatConversationFragment"
+        android:name="com.hacms.app.DirectChatFragment"
+        android:label="Chat" />
+
+    <fragment android:id="@+id/profileFragment" android:name="com.hacms.app.ProfileFragment" android:label="Profile" />
+    <fragment android:id="@+id/settingsFragment" android:name="com.hacms.app.SettingsFragment" android:label="Settings" />
+    <fragment android:id="@+id/groupFragment" android:name="com.hacms.app.GroupFragment" android:label="Group" />
+    <fragment android:id="@+id/notesFragment"
+        android:name="com.hacms.app.NoteFragment"
+        android:label="Notes" />
+
+    <fragment android:id="@+id/noteDetailsFragment"
+        android:name="com.hacms.app.NoteDetailsFragment"
+        android:label="Notes" />
+
+    <fragment android:id="@+id/createNoteFragment"
+        android:name="com.hacms.app.CreateNoteFragment"
+        android:label="Notes" />
+
+    <fragment android:id="@+id/editNoteFragment"
+        android:name="com.hacms.app.EditNoteFragment"
+        android:label="Notes" />
+    <fragment android:id="@+id/focusSettingsFragment" android:name="com.hacms.app.FocusSettingsFragment" android:label="Focus Mode" />
+    <fragment android:id="@+id/focusStatusFragment" android:name="com.hacms.app.FocusStatusFragment" android:label="Focus Mode" />
+</navigation>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UniTask</string>
+<string name="focus_accessibility_description">Optionally redirects you from selected distracting apps during your own scheduled study sessions. It only checks foreground app package names and never reads screen contents.</string>
+</resources>

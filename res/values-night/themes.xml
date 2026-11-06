@@ -1,0 +1,1 @@
+<resources><style name="Base.Theme.HACMS" parent="Theme.Material3.DayNight.NoActionBar"><item name="colorPrimary">#80A9FF</item><item name="colorOnPrimary">#101827</item><item name="colorSecondary">#B5CEE6</item><item name="android:statusBarColor">#101827</item><item name="android:windowLightStatusBar">false</item></style></resources>
