@@ -1,0 +1,11 @@
+Source-level validation performed:
+- JDK javac parser with Java 11 language level: all Android project Java sources syntax-parse, zero parse errors.
+- ElementTree XML parser: all Android resource and manifest XML parse.
+- Resource reference audit: all Java R.id, R.drawable, R.menu references match resource declarations (android.R framework names excluded).
+- Standalone Javac test: StudyPlanEngine ranks ISO due dates, generates sessions; LocalStudyAssistant returns task guidance (PASS).
+- ZIP file integrity check conducted after packaging.
+Not performed:
+- Android Gradle sync, dependency resolution or fully compiled APK.
+- Android Emulator / physical-device execution.
+- Firebase security rule emulator integration test or connection to live Firebase project.
+- App Check Play Integrity verification or SMS MFA validation.
